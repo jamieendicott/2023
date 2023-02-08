@@ -70,6 +70,7 @@ g+geom_point()+geom_smooth(method='loess')+
   facet_wrap(~C)
 #not impressive... can kind of see oscillation? heatmap more pronounced
 #fuzzy c means might be more suitable than corr distance 
+#also consider normalization for each gene
 
 #running GO
 #from basic template https://github.com/mousepixels/sanbomics_scripts/blob/main/GO_in_R.Rmd
